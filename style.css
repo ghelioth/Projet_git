@@ -1,0 +1,54 @@
+
+/* =====================Global======================================================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =====================Header======================================================= */
+
+header{
+    background-color: #8B7355;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header img{
+    height: 80px;
+    width: auto;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: #F5DEB3;
+    transition: color 0.3s;
+}
+
+nav a:hover{
+    color: #D4AF37;;
+}
+
+
+
+/* =====================Section======================================================= */
+
+
+
+/* =====================Footer======================================================= */
+
+footer{
+    background-color: #8B7355;
+    color: #F5DEB3;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2rem;
+}
