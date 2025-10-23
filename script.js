@@ -1,4 +1,4 @@
-const BIERES = ["Stout", "IPA", "Blonde"];
+const BIERES = ["Stout", "IPA", "Blonde", "Pale Ale"];
 let listeBieres = document.getElementById("nos-bieres");
 BIERES.forEach((biere) => {
   let li = document.createElement("li");
