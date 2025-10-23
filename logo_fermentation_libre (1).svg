@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Fond transparent -->
+  <rect width="400" height="400" fill="none"/>
+  
+  <!-- Cercle extérieur décoratif -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="#8B7355" stroke-width="2"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
+  
+  <!-- Verre de bière stylisé -->
+  <g transform="translate(200, 120)">
+    <!-- Corps du verre -->
+    <path d="M -25 0 L -30 60 L 30 60 L 25 0 Z" fill="#8B7355" opacity="0.8"/>
+    <!-- Mousse -->
+    <ellipse cx="0" cy="-5" rx="28" ry="12" fill="#F5DEB3"/>
+    <ellipse cx="-15" cy="-8" rx="15" ry="8" fill="#F5DEB3"/>
+    <ellipse cx="15" cy="-8" rx="15" ry="8" fill="#F5DEB3"/>
+    <ellipse cx="0" cy="-12" rx="12" ry="6" fill="#FAF0E6"/>
+  </g>
+  
+  <!-- Décoration de houblon stylisé -->
+  <g transform="translate(120, 200)">
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#8B7355" opacity="0.6"/>
+    <ellipse cx="-4" cy="0" rx="7" ry="10" fill="#A0826D" opacity="0.5"/>
+    <ellipse cx="4" cy="0" rx="7" ry="10" fill="#A0826D" opacity="0.5"/>
+  </g>
+  
+  <g transform="translate(280, 200)">
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#8B7355" opacity="0.6"/>
+    <ellipse cx="-4" cy="0" rx="7" ry="10" fill="#A0826D" opacity="0.5"/>
+    <ellipse cx="4" cy="0" rx="7" ry="10" fill="#A0826D" opacity="0.5"/>
+  </g>
+  
+  <!-- Texte "FERMENTATION" -->
+  <text x="200" y="250" font-family="serif" font-size="28" font-weight="bold" fill="#8B7355" text-anchor="middle" letter-spacing="3">
+    FERMENTATION
+  </text>
+  
+  <!-- Texte "LIBRE" -->
+  <text x="200" y="285" font-family="serif" font-size="32" font-weight="bold" fill="#D4AF37" text-anchor="middle" letter-spacing="5">
+    LIBRE
+  </text>
+  
+  <!-- Ligne décorative -->
+  <line x1="100" y1="300" x2="300" y2="300" stroke="#D4AF37" stroke-width="1.5"/>
+  
+  <!-- Sous-titre -->
+  <text x="200" y="320" font-family="serif" font-size="14" fill="#8B7355" text-anchor="middle" font-style="italic" letter-spacing="2">
+    Brasserie Artisanale
+  </text>
+</svg>
