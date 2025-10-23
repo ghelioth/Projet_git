@@ -14,7 +14,7 @@
             <nav>
                 <ul>
                     <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#bières">Nos bières</a></li>
+                    <li><a href="#bieres">Nos bières</a></li>
                     <li><a href="#avis">Avis clients</a></li>
                     <li><a href="#contact">Contact</a></li>
             </nav>
@@ -30,6 +30,7 @@
             <section id="nos-bieres">
                 <h2>Nos bières</h2>
                 <p>Nous proposons plusieurs variétes de bières : Blonde, Blanche et Ambrée</p>
+                <ul id = "nos-bieres"></ul>
             </section>
             <section id="avis">
                 <h2>Avis</h2>
@@ -41,6 +42,16 @@
             mettre le pied de page ici
         </footer>
     </div>
+    <script>
+        const BIERES = ["Stout", "IPA", "Blonde"];
+        let listeBieres = document.getElementById("nos-bieres");
+        BIERES.forEach (biere => {
+            let li = document.createElement("li");
+            li.innerText = biere;
+            listeBieres.appendChild(li);
+        });
+
+    </script>
 
 </body>
 
