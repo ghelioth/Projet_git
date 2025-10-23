@@ -40,7 +40,19 @@ nav a:hover{
 
 
 /* =====================Section======================================================= */
+.dynamic-text {
+font-size: 24px;
+transition: all 0.3s ease;
+cursor: pointer;
+display: inline-block;
+color: #333;
+}
 
+.dynamic-text:hover {
+transform: scale(1.1);
+color: #ff6b6b;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
 
 
 /* =====================Footer======================================================= */
