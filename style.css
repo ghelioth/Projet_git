@@ -17,8 +17,9 @@ header{
 }
 
 header img{
-    height: 80px;
+    height: 150px;
     width: auto;
+    background-color: white;
 }
 
 nav ul{
